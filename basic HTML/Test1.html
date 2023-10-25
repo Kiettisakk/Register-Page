@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>สมัครสมาชิก</h2>
+    <form action="/insert" method="POST">
+        <label for="uname">Username:</label>
+        <input type="text" name="uname" id="uname" placeholder="Username" required value=""> <br>
+        <label for="pword">Password:</label>
+        <input type="password" name="pword" id="pword"><br>
+        <label for="name">ชื่อ-สกุล:</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="age">ช่วงอายุ</label>
+        <select name="age" id="age">
+            <option value="1-10">ตั้งแต่ 1 - 10 ปี</option>
+            <option value="1-10">ตั้งแต่ 10 - 15 ปี</option>
+            <option value="1-10">ตั้งแต่ 15 - 20 ปี</option>
+            <option value="1-10">ตั้งแต่ 20 - 25 ปี</option>
+            <option value="1-10">ตั้งแต่ 25 - 30 ปี</option>
+        </select><br>
+        <label for="email">อีเมล:</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="tel">เบอร์โทร:</label>
+        <input type="tel" name="tel" id="tel"><br>
+        <label for="address">ที่อยู่:</label>
+        <textarea name="address" id="address" cols="30" rows="3"></textarea><br>
+        <button type="submit">สมัครสมาชิก</button>
+        <button type="reset">ล้างฟอร์ม</button>
+    </form>
+</body>
+</html>
