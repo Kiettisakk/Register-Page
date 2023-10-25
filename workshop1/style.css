@@ -1,0 +1,31 @@
+body {
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Onest', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.text-gray {
+    color: #555;
+}
+
+.bg-gradient {
+    background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1)) !important;
+}
+
+.h-full {
+    height: 100vh;
+}
+
+.pt-7em {
+    padding-top: 7em ;
+}
+
+.p-36 {
+    padding: 36px;
+}
+
+@media only screen and (mix-width: 767px) {
+    .pt-7em {
+        padding-top: 3rem !important;
+    }
+}
